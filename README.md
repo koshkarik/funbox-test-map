@@ -1,6 +1,6 @@
 ### Редактор маршрутов 
 
-Live - http://unequal-dinosaurs.surge.sh/
+Live - http://roasted-coat.surge.sh/
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/28994650638c321ed7e0/maintainability)](https://codeclimate.com/github/koshkarik/funbox-test-map/maintainability) [![Build Status](https://travis-ci.org/koshkarik/funbox-test-map.svg?branch=master)](https://travis-ci.org/koshkarik/funbox-test-map)
 
