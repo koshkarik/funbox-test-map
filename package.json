@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest",
     "babel-node": "babel-node",
-    "build": "webpack --mode development",
+    "build": "webpack --mode production",
     "prepublishOnly": "npm run build",
     "eslint": "eslint",
     "webpack": "webpack",
