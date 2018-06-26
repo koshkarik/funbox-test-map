@@ -12,7 +12,7 @@ export default class Menu extends React.Component {
   render() {
     const { placesOrder, places } = this.props;
     return (
-      <div className="border-top border-light pt-4">
+      <div className="border-top border-light pt-4" style={ { maxHeight: '90%', overflowY: 'scroll' } }>
          <SortableList items={placesOrder} places={places} onSortEnd={this.onSortEnd} />
       </div>
     );

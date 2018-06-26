@@ -10,7 +10,9 @@ const App = () => (
         <SearchInput />
         <Menu />
       </div>
-      <div className="col-6 col-sm-7 col-xl-9 col-md-8 pt-3 pb-3 bg-light" style={ { height: '100vh' } }>
+      <div className="col-6 col-sm-7 col-xl-9 col-md-8 pt-3 pb-3 bg-light"
+        style={ { height: '100vh', maxHeight: '100%', overflowY: 'scroll' } }
+      >
         <Map />
       </div>
     </div>
