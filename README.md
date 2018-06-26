@@ -1,6 +1,6 @@
 ### Редактор маршрутов 
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/28994650638c321ed7e0/maintainability)](https://codeclimate.com/github/koshkarik/funbox-test-map/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/28994650638c321ed7e0/maintainability)](https://codeclimate.com/github/koshkarik/funbox-test-map/maintainability) [![Build Status](https://travis-ci.org/koshkarik/funbox-test-map.svg?branch=master)](https://travis-ci.org/koshkarik/funbox-test-map)
 
 Одностраничное приложение, в котором пользователь в интерактивном режиме может создавать на карте маршрут, указывая начальную, конечную и промежуточные точки движения. Для каждой точки маршрута можно посмотреть ее адрес.  
 
