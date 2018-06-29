@@ -6,7 +6,7 @@ import * as actions from '../actions';
 
 const testId = 'sldkfjq34llk';
 
-const placesOrder = handleActions({
+export const placesOrder = handleActions({
   [actions.addNewSpot](state, { payload: { id } }) {
     return [...state, id];
   },
@@ -15,15 +15,11 @@ const placesOrder = handleActions({
   },
   [actions.deleteItem](state, { payload: id }) {
     const newState = state.filter(item => item !== id);
-    console.log(newState);
     return newState;
   },
 }, [testId]);
 
-const places = handleActions({
-  [actions.getPlaces](state, { payload: { allSpots } }) {
-    return [...state, allSpots];
-  },
+export const places = handleActions({
   [actions.addNewSpot](state, {
     payload: {
       name, lat, lng, id, infoWindowOpen,
@@ -44,7 +40,6 @@ const places = handleActions({
   },
   [actions.deleteItem](state, { payload: id }) {
     const modified = omit(state, id);
-    console.log(modified);
     return modified;
   },
 }, {
@@ -57,9 +52,8 @@ const places = handleActions({
   },
 });
 
-const map = handleActions({
+export const map = handleActions({
   [actions.changeMapCenter](state, { payload: { lat, lng } }) {
-    console.log(lat);
     return { ...state, center: { lat, lng } };
   },
 }, { center: { lat: 55.753134, lng: 37.615755 } });

@@ -45,6 +45,7 @@
     "babel-cli": "*",
     "babel-core": "*",
     "babel-eslint": "*",
+    "babel-jest": "^23.2.0",
     "babel-loader": "*",
     "babel-polyfill": "*",
     "babel-preset-env": "*",
@@ -57,8 +58,8 @@
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
     "jest": "*",
-    "webpack-dev-server": "^3.1.4",
     "webpack": "*",
-    "webpack-cli": "*"
+    "webpack-cli": "*",
+    "webpack-dev-server": "^3.1.4"
   }
 }
